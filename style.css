@@ -4,13 +4,13 @@
 
 body {
 	font-family: "Trebuchet MS", sans-serif;
-	font-size: 10px;
+	font-size: 20px;
 	margin: 0;
 	padding: 0;
 }
 
 nav {
-	font-size: 2rem;
+	font-size: 1.2rem;
 	height: 75px;
 	width: 100%;
 	background-color: #a7d9f4;
@@ -20,12 +20,58 @@ nav {
 	align-items: center;
 }
 
+h1, h2, .me, .info {
+	text-align: center;
+}
+
+.personal-photo {
+	height: 300px;
+	width: 250px;
+	padding: 10px;
+}
+
+.photos {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+.bball {
+	height: 300px;
+	width: 400px;
+}
+
+.leopard {
+	height: 300px;
+	width: 500px;
+}
+
 footer {
 	height: 75px;
 	width: 100%;
-	font-size: 1.1rem;
 	background-color: #689AE4;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
+
+@media only screen and (max-width: 900px) {
+	.photos {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
