@@ -38,31 +38,21 @@ h1, h2 {
 	padding: 10px;
 }
 
-
 .photos {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 10px;
 }
 
-
 .bball {
 	height: 300px;
 	width: 400px;
 }
 
-
-
 .leopard {
 	height: 300px;
 	width: 500px;
 }
-
-
-
-
-
-
 
 footer {
 	height: 75px;
@@ -73,7 +63,7 @@ footer {
 	align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 	.photos{
 		display: flex;
 		flex-wrap: wrap;
