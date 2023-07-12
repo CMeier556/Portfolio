@@ -20,14 +20,14 @@ nav {
 	align-items: center;
 }
 
-h1, h2, .me, .info {
+h1, h2, .me, .info, .projects {
 	text-align: center;
+	padding: 5px;
 }
 
 .personal-photo {
 	height: 300px;
 	width: 250px;
-	padding: 10px;
 }
 
 .photos {
@@ -46,6 +46,19 @@ h1, h2, .me, .info {
 	width: 500px;
 }
 
+
+.box-one, .box-two {
+	width: 1200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	gap: 10px;
+	position: relative;
+}
+
 footer {
 	height: 75px;
 	width: 100%;
@@ -61,7 +74,14 @@ footer {
 		flex-wrap: wrap;
 		gap: 10px;
 	}
+	footer {
+		font-size: 16px;
+	}
+	.box-one, .box-two {
+		width: 95%;
+	}
 }
+
 
 
 
