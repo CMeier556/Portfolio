@@ -39,7 +39,7 @@ h1, h2, .me, p {
 	max-width: 300px;
 }
 
-.about-me-photo-container {
+.about-me-photos-container {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 10px;
@@ -55,7 +55,7 @@ h1, h2, .me, p {
 	padding: 10px;
 }
 
-.project-window {
+.project-card {
 	width: 100%;
 	height: auto;
 	margin-top: 20px;
