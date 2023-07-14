@@ -75,7 +75,7 @@ footer {
 }
 
 @media only screen and (max-width: 900px) {
-	.about-me-photo-container {
+	.about-me-photos-container {
 		flex-wrap: wrap;
 		gap: 10px;
 		height: auto;
