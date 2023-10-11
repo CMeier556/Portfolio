@@ -68,7 +68,16 @@ h1, h2, .me, p {
 	margin-bottom: 20px;
 	border: 2px solid $color;
 	text-align: center;
-	padding: 5px;
+	padding: 10px;
+}
+
+.link {
+	margin-bottom: 2px;
+}
+
+.links {
+	display: flex;
+	justify-content: space-evenly;
 }
 
 footer {
