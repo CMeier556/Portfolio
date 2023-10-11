@@ -1,3 +1,10 @@
+$color: black;
+
+@mixin align() {
+    text-align: center;
+	padding: 5px;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -26,12 +33,11 @@ nav {
 
 .page-link {
 	text-decoration: none;
-	color: black;
+	color: $color;
 }
 
 h1, h2, .me, p {
-	text-align: center;
-	padding: 5px;
+	@include align()
 }
 
 .personal-photo {
@@ -60,7 +66,7 @@ h1, h2, .me, p {
 	height: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border: 2px solid black;
+	border: 2px solid $color;
 	text-align: center;
 	padding: 5px;
 }
